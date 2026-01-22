@@ -14,14 +14,14 @@ npm i processlab-ui
 
 ### Tailwind app (ProcessLab)
 
-Import the theme and let your app Tailwind build the classes:
+Import the theme first and let your app Tailwind build the classes:
 
 ```css
+@import "processlab-ui/theme.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import "processlab-ui/theme.css";
 ```
 
 Add the package dist folder to your Tailwind content:
@@ -57,4 +57,12 @@ Watch mode:
 
 ```bash
 npm run build:watch
+```
+
+## Updates (tags)
+
+Pin a tag in consuming apps:
+
+```json
+"processlab-ui": "git+https://github.com/WhiteShieldPT/processlab-ui.git#v0.1.1"
 ```

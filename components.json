@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "rsc": false,
+  "tsx": true,
+  "tailwind": {
+    "config": "tailwind.config.ts",
+    "css": "src/processlab-ui/styles/theme.css",
+    "baseColor": "slate",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@/processlab-ui/components",
+    "utils": "@/processlab-ui/utils",
+    "ui": "@/processlab-ui/components",
+    "hooks": "@/processlab-ui/hooks"
+  }
+}
